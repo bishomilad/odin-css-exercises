@@ -3,11 +3,11 @@ button{
     font-family: Helvetica, "Times New Roman", sans-serif;
 }
 
-btn1{
+.btn1{
     background-color: black;
     color: white;
 }
 
-btn2{
+.btn2{
     background-color: yellow;
 }
