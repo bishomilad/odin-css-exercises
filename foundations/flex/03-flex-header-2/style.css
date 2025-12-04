@@ -12,6 +12,11 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
 }
 
 .profile-image {
@@ -45,4 +50,20 @@ a {
 
 ul {
   list-style-type: none;
+}
+
+/* !!!!! I used a different solution than the desired 
+but it gave the same result with less flex boxes by using margin-left:auto property
+that made use of the extra space without having to justify the content in the space between*/
+
+.notifications{
+  margin-left:auto;
+}
+
+.links{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding-left: 10px;
 }
